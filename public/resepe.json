@@ -1,0 +1,108 @@
+[
+  {
+    "recipe_image": "./images/Rectangle 20170 (1).png",
+    "recipe_id": "001",
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "Classic Italian pasta dish with creamy sauce",
+    "ingredients": [
+      "350g spaghetti",
+      "150g pancetta or guanciale",
+      "3 large eggs",
+      "50g Pecorino Romano cheese",
+      "50g Parmesan cheese",
+      "Salt and black pepper to taste"
+    ],
+    "preparing_time": "20 min",
+    "calories": "480 calories"
+  },
+  {
+    "recipe_image": "./images/Rectangle 20170.png",
+    "recipe_id": "002",
+    "recipe_name": "Chocolate Chip Cookies",
+    "short_description": "Homemade cookies loaded with chocolate chips",
+    "ingredients": [
+      "200g unsalted butter, softened",
+      "200g brown sugar",
+      "100g granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "300g all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "300g chocolate chips"
+    ],
+    "preparing_time": "15 min",
+    "calories": "150 calories per cookie"
+  },
+  {
+    "recipe_image": "./images/Rectangle 20170 (1).png",
+    "recipe_id": "003",
+    "recipe_name": "Mixed Fruit Smoothie",
+    "short_description": "Refreshing blend of assorted fresh fruits",
+    "ingredients": [
+      "1 banana",
+      "1/2 cup strawberries",
+      "1/2 cup blueberries",
+      "1/2 cup mango chunks",
+      "1 cup spinach leaves",
+      "1 cup almond milk",
+      "1/2 cup Greek yogurt",
+      "1 tbsp honey"
+    ],
+    "preparing_time": "5 min",
+    "calories": "180 calories"
+  },
+  {
+    "recipe_image": "./images/Rectangle 20170.png",
+    "recipe_id": "004",
+    "recipe_name": "French Omelette",
+    "short_description": "Light and fluffy omelette with fillings of your choice",
+    "ingredients": [
+      "3 large eggs",
+      "2 tbsp milk",
+      "Salt and pepper to taste",
+      "1/4 cup shredded cheese",
+      "1/4 cup diced vegetables (e.g., bell peppers, onions, tomatoes)",
+      "1 tbsp butter"
+    ],
+    "preparing_time": "10 min",
+    "calories": "200 calories"
+  },
+  {
+    "recipe_image": "./images/Rectangle 20170 (1).png",
+    "recipe_id": "005",
+    "recipe_name": "Vegetable Soup",
+    "short_description": "Hearty and nutritious soup with a variety of vegetables",
+    "ingredients": [
+      "2 carrots, diced",
+      "2 stalks celery, chopped",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (400g) diced tomatoes",
+      "4 cups vegetable broth",
+      "1 cup chopped spinach",
+      "1 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "30 min",
+    "calories": "120 calories per serving"
+  },
+  {
+    "recipe_image": "./images/Rectangle 20170.png",
+    "recipe_id": "006",
+    "recipe_name": "Homemade Pizza",
+    "short_description": "Customizable pizza made from scratch",
+    "ingredients": [
+      "For dough: 300g all-purpose flour",
+      "1 tsp instant yeast",
+      "1 tsp sugar",
+      "1 tsp salt",
+      "200ml warm water",
+      "For toppings: 1/2 cup pizza sauce",
+      "1 cup shredded mozzarella cheese",
+      "Assorted toppings (e.g., pepperoni, mushrooms, bell peppers)"
+    ],
+    "preparing_time": "45 min",
+    "calories": "300 calories per slice"
+  }
+]
