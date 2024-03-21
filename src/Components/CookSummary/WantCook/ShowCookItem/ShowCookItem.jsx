@@ -1,4 +1,5 @@
 import React from "react";
+import icon8 from '../../../../../public/icons/icons8-left-3-50.png'
 
 export default function ShowCookItem({ item }) {
   const { recipe_name, preparing_time, calories } = item;
@@ -7,7 +8,7 @@ export default function ShowCookItem({ item }) {
     <tbody>
       {/* row 1 */}
       <tr>
-        <th>1</th>
+        <th><img src={icon8} alt="" /></th>
         <td>{recipe_name}</td>
         <td>{preparing_time}</td>
         <td>{calories}</td>
