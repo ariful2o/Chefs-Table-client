@@ -5,7 +5,7 @@ import SearchForm from "../Search/Search";
 export default function Header() {
   return (
     <div>
-      <div className="navbar bg-base-100 text-white">
+      <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +45,7 @@ export default function Header() {
         </div>
         <div className="navbar-end">
             <SearchForm></SearchForm>
-          <img src={iconProfile} alt="" />
+          <img className="bg-[#0BE58A] rounded-[50px] p-2 " src={iconProfile} alt="" />
         </div>
       </div>
     </div>

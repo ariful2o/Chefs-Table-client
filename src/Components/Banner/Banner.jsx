@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div>
       <div
-        className="hero min-h-[600px] rounded-3xl"
+        className="hero min-h-[600px] rounded-3xl mt-10"
         style={{ backgroundImage: `url(${bannerimg})` }}
       >
         <div className="hero-overlay"></div>
