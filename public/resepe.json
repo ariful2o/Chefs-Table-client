@@ -35,7 +35,7 @@
     "calories": "150 calories"
   },
   {
-    "recipe_image": "./images/Rectangle 20170 (1).png",
+    "recipe_image": "./images/ramen-7238665_1280.jpg",
     "recipe_id": "003",
     "recipe_name": "Mixed Fruit Smoothie",
     "short_description": "Refreshing blend of assorted fresh fruits",
@@ -53,7 +53,7 @@
     "calories": "180 calories"
   },
   {
-    "recipe_image": "./images/Rectangle 20170.png",
+    "recipe_image": "./images/meat-123668_1280.jpg",
     "recipe_id": "004",
     "recipe_name": "French Omelette",
     "short_description": "Light and fluffy omelette with fillings of your choice",
@@ -69,7 +69,7 @@
     "calories": "200 calories"
   },
   {
-    "recipe_image": "./images/Rectangle 20170 (1).png",
+    "recipe_image": "./images/fish-8031138_1280.jpg",
     "recipe_id": "005",
     "recipe_name": "Vegetable Soup",
     "short_description": "Hearty and nutritious soup with a variety of vegetables",
@@ -88,7 +88,7 @@
     "calories": "120 calories"
   },
   {
-    "recipe_image": "./images/Rectangle 20170.png",
+    "recipe_image": "./images/cigarettes-83571_1280.jpg",
     "recipe_id": "006",
     "recipe_name": "Homemade Pizza",
     "short_description": "Customizable pizza made from scratch",

@@ -10,7 +10,7 @@ export default function Cards({ handleCookTiem }) {
       .then((data) => setCards(data));
   }, []);
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 mt-10 gap-4 w-4/6">
+    <div className="grid lg:grid-cols-2 grid-cols-1 mt-10 gap-4 w-full lg:w-4/6">
       {cards.map((card) => {
         return (
           <Card

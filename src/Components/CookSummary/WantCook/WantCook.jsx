@@ -1,12 +1,12 @@
 import React from "react";
 import ShowCookItem from "./ShowCookItem/ShowCookItem";
 
-export default function WantCook({ cookitem ,cookSerial}) {
+export default function WantCook({ cookitem, cookSerial ,handleCurrentlyCook}) {
   // const {recipe_name,preparing_time,calories}=cookitem
-//   console.log(cookitem);
+  //   console.log(cookitem);
   return (
-    <div className="mt-20">
-      <h2 className="text-3xl font-bold text-center">
+    <div className="mt-20 border border-slate-200 rounded-xl">
+      <h2 className="text-2xl text-center my-4">
         Want to cook: {cookitem.length}
       </h2>
       <div className="overflow-x-auto">
@@ -22,7 +22,14 @@ export default function WantCook({ cookitem ,cookSerial}) {
             </tr>
           </thead>
           {cookitem.map((item) => {
-            return <ShowCookItem key={item.id} item={item} cookSerial={cookSerial}></ShowCookItem>;
+            return (
+              <ShowCookItem
+                key={item.id}
+                item={item}
+                cookSerial={cookSerial}
+                handleCurrentlyCook={handleCurrentlyCook}
+              ></ShowCookItem>
+            );
           })}
         </table>
       </div>

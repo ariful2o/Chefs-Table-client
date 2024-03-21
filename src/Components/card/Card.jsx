@@ -2,7 +2,7 @@ import React from "react";
 import clock from "../../../public/icons/Frame (2).svg";
 import caloriesimg from "../../../public/icons/Frame (3).svg";
 
-export default function Card({ card ,handleCookTiem}) {
+export default function Card({ card, handleCookTiem }) {
   const {
     recipe_image,
     recipe_name,
@@ -13,9 +13,9 @@ export default function Card({ card ,handleCookTiem}) {
   } = card;
   return (
     <div>
-      <div className="card card-compact w-96 bg-base-100 shadow-xl my-8">
+      <div className="card card-compact w-96 bg-base-100 shadow-xl my-8 pt-8 border border-slate-200">
         <figure>
-          <img src={recipe_image} alt="recipe_image" />
+          <img className="h-52 w-full rounded-2xl" src={recipe_image} alt="recipe_image" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{recipe_name}</h2>
@@ -38,7 +38,10 @@ export default function Card({ card ,handleCookTiem}) {
             </div>
           </div>
           <div className=" my-4">
-            <button onClick={()=>handleCookTiem(card)} className="btn btn-accent text-[#150B2B] rounded-[50px] px-6 py-3">
+            <button
+              onClick={() => handleCookTiem(card)}
+              className="btn btn-accent text-[#150B2B] rounded-[50px] px-6 py-3"
+            >
               Want to cook
             </button>
           </div>
