@@ -7,7 +7,6 @@ export default function CurrentlyCookShow({ item }) {
     <tbody>
       {/* row 1 */}
       <tr>
-        <th></th>
         <td>{recipe_name}</td>
         <td>{preparing_time} minutes</td>
         <td>{calories} calories</td>

@@ -1,19 +1,14 @@
 import React from "react";
 
-export default function TotalCalMin({currentlyCook}) {
-    for (const item of currentlyCook) {
-        
-        console.log(item)
-    }
+export default function TotalCalMin({totalPreparingTime,totalCalories}) {
+
   return (
-    <div>
-      <hr />
-      {/* <tr>
-        <th></th>
+
+    <tr className="font-bold">
         <td></td>
-        <td>{preparing_time} minutes</td>
-        <td>{calories} calories</td>
-      </tr> */}
-    </div>
+        <td>Total : {totalPreparingTime} minutes</td>
+        <td>Total : {totalCalories} calories</td>
+      </tr>
+
   );
 }
