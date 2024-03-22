@@ -10,8 +10,8 @@ export default function ShowCookItem({ item ,handleCurrentlyCook,}) {
       <tr>
         <th><img src={icon8} alt="" /></th>
         <td>{recipe_name}</td>
-        <td>{preparing_time}</td>
-        <td>{calories}</td>
+        <td>{preparing_time} minutes</td>
+        <td>{calories} calories</td>
         <td>
           <button onClick={()=>handleCurrentlyCook(item,id)} className="btn btn-accent text-[#150B2B] rounded-[50px] px-6">
             Preparing

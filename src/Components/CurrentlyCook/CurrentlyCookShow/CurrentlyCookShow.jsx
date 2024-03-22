@@ -9,8 +9,8 @@ export default function CurrentlyCookShow({ item }) {
       <tr>
         <th></th>
         <td>{recipe_name}</td>
-        <td>{preparing_time}</td>
-        <td>{calories}</td>
+        <td>{preparing_time} minutes</td>
+        <td>{calories} calories</td>
      </tr>
     </tbody>
   );

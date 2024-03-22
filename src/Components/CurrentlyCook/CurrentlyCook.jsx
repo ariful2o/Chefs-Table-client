@@ -1,5 +1,6 @@
 import React from "react";
 import CurrentlyCookShow from "./CurrentlyCookShow/CurrentlyCookShow"
+import TotalCalMin from "./CurrentlyCookShow/TotalCalMin/TotalCalMin";
 export default function CurrentlyCook({currentlyCook,cookSerial}) {
     // console.log(currentlyCook)
   return (
@@ -29,6 +30,7 @@ export default function CurrentlyCook({currentlyCook,cookSerial}) {
                   )
                 })
             }
+            <TotalCalMin currentlyCook={currentlyCook}></TotalCalMin>
         </table>
       </div>
     </div>

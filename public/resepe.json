@@ -1,7 +1,7 @@
 [
   {
     "recipe_image": "./images/Rectangle 20170 (1).png",
-    "recipe_id": "001",
+    "recipe_id": 1,
     "recipe_name": "Spaghetti Carbonara",
     "short_description": "Classic Italian pasta dish with creamy sauce",
     "ingredients": [
@@ -12,12 +12,12 @@
       "50g Parmesan cheese",
       "Salt and black pepper to taste"
     ],
-    "preparing_time": "20 min",
-    "calories": "480 calories"
+    "preparing_time": 20,
+    "calories": 480
   },
   {
     "recipe_image": "./images/Rectangle 20170.png",
-    "recipe_id": "002",
+    "recipe_id": 2,
     "recipe_name": "Chocolate Chip Cookies",
     "short_description": "Homemade cookies loaded with chocolate chips",
     "ingredients": [
@@ -31,12 +31,12 @@
       "1/2 tsp salt",
       "300g chocolate chips"
     ],
-    "preparing_time": "15 min",
-    "calories": "150 calories"
+    "preparing_time": 15,
+    "calories": 150
   },
   {
     "recipe_image": "./images/ramen-7238665_1280.jpg",
-    "recipe_id": "003",
+    "recipe_id": 3,
     "recipe_name": "Mixed Fruit Smoothie",
     "short_description": "Refreshing blend of assorted fresh fruits",
     "ingredients": [
@@ -49,12 +49,12 @@
       "1/2 cup Greek yogurt",
       "1 tbsp honey"
     ],
-    "preparing_time": "5 min",
-    "calories": "180 calories"
+    "preparing_time": 5,
+    "calories": 180
   },
   {
     "recipe_image": "./images/meat-123668_1280.jpg",
-    "recipe_id": "004",
+    "recipe_id": 4,
     "recipe_name": "French Omelette",
     "short_description": "Light and fluffy omelette with fillings of your choice",
     "ingredients": [
@@ -65,12 +65,12 @@
       "1/4 cup diced vegetables (e.g., bell peppers, onions, tomatoes)",
       "1 tbsp butter"
     ],
-    "preparing_time": "10 min",
-    "calories": "200 calories"
+    "preparing_time": 10,
+    "calories": 200
   },
   {
     "recipe_image": "./images/fish-8031138_1280.jpg",
-    "recipe_id": "005",
+    "recipe_id": 5,
     "recipe_name": "Vegetable Soup",
     "short_description": "Hearty and nutritious soup with a variety of vegetables",
     "ingredients": [
@@ -84,12 +84,12 @@
       "1 tsp dried thyme",
       "Salt and pepper to taste"
     ],
-    "preparing_time": "30 min",
-    "calories": "120 calories"
+    "preparing_time": 30,
+    "calories": 120
   },
   {
     "recipe_image": "./images/cigarettes-83571_1280.jpg",
-    "recipe_id": "006",
+    "recipe_id": 6,
     "recipe_name": "Homemade Pizza",
     "short_description": "Customizable pizza made from scratch",
     "ingredients": [
@@ -102,7 +102,7 @@
       "1 cup shredded mozzarella cheese",
       "Assorted toppings (e.g., pepperoni, mushrooms, bell peppers)"
     ],
-    "preparing_time": "45 min",
-    "calories": "300 calories"
+    "preparing_time": 45,
+    "calories": 300
   }
 ]

@@ -22,7 +22,7 @@ function App() {
     setCurrentlyCook([...currentlyCook,addItem]);
     //remove cookitem list
     setCookitem(cookitem.filter((item) => item.id!== addItem.id));
-    console.log(currentlyCook.length)
+    // console.log(currentlyCook.length)
     setCookSerial(cookSerial+1)
   }
 
