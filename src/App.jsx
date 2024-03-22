@@ -11,6 +11,7 @@ import CurrentlyCook from "./Components/CurrentlyCook/CurrentlyCook";
 function App() {
   const [cookitem, setCookitem] = useState([]);
   const [currentlyCook,setCurrentlyCook]=useState([])
+  const [cookSerial, setCookSerial] = useState(0);
 
   const handleCookTiem = (item) => {
     setCookitem([...cookitem,item]);
@@ -21,7 +22,10 @@ function App() {
     setCurrentlyCook([...currentlyCook,addItem]);
     //remove cookitem list
     setCookitem(cookitem.filter((item) => item.id!== addItem.id));
+    console.log(currentlyCook.length)
+    setCookSerial(cookSerial+1)
   }
+
   
 
   return (
@@ -33,7 +37,7 @@ function App() {
         <Cards handleCookTiem={handleCookTiem} ></Cards>
         <div className="w-full lg:w-2/6">
           <WantCook cookitem={cookitem} handleCurrentlyCook={handleCurrentlyCook}></WantCook>
-          <CurrentlyCook currentlyCook={currentlyCook}></CurrentlyCook>
+          <CurrentlyCook currentlyCook={currentlyCook} cookSerial={cookSerial}></CurrentlyCook>
         </div>
       </div>
     </>

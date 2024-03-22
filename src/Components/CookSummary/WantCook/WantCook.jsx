@@ -3,7 +3,7 @@ import ShowCookItem from "./ShowCookItem/ShowCookItem";
 
 export default function WantCook({ cookitem, cookSerial ,handleCurrentlyCook}) {
   // const {recipe_name,preparing_time,calories}=cookitem
-  //   console.log(cookitem);
+    // console.log(cookitem);
   return (
     <div className="mt-20 border border-slate-200 rounded-xl">
       <h2 className="text-2xl text-center my-4">

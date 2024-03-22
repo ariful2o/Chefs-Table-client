@@ -9,7 +9,7 @@ export default function Card({ card, handleCookTiem }) {
     short_description,
     ingredients,
     preparing_time,
-    calories,
+    calories  
   } = card;
   return (
     <div>
@@ -23,8 +23,8 @@ export default function Card({ card, handleCookTiem }) {
           <hr />
           <h2 className="card-title">Ingredients: {ingredients.length}</h2>
           <ou className="ml-4">
-            {ingredients.map((producDetalis) => {
-              return <li>{producDetalis}</li>;
+            {ingredients.map((producDetalis,idx) => {
+              return <li key={idx}>{producDetalis}</li>;
             })}
           </ou>
           <div className="flex my-6">

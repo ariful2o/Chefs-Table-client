@@ -1,11 +1,11 @@
 import React from "react";
 import CurrentlyCookShow from "./CurrentlyCookShow/CurrentlyCookShow"
-export default function CurrentlyCook({currentlyCook}) {
-    console.log(currentlyCook)
+export default function CurrentlyCook({currentlyCook,cookSerial}) {
+    // console.log(currentlyCook)
   return (
     <div className="mt-20 border border-slate-200 rounded-xl">
       <h2 className="text-2xl text-center my-4">
-      Currently cooking: 02
+      Currently cooking: {cookSerial}
       </h2>
       <div className="overflow-x-auto">
         <table className="table">
