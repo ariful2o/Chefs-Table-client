@@ -30,7 +30,7 @@ export default function CurrentlyCook({currentlyCook,cookSerial}) {
                 currentlyCook.map((item) => {
                   return (
                     <CurrentlyCookShow
-                      key={item.id}
+                      key={item.recipe_id}
                       item={item}
                     ></CurrentlyCookShow>
                   )
