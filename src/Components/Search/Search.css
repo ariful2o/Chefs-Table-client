@@ -1,0 +1,27 @@
+
+@media screen-max 450px {
+    #searchIcon{
+        display: none;
+    }
+}
+
+/* Default styles for search component */
+#searchIcon {
+    display: none; /* Hide the search component by default */
+  }
+  
+  /* Styles for large devices (e.g., desktops, laptops) */
+  @media (min-width: 768px) {
+    #searchIcon {
+      display: block; /* Display the search component for large devices */
+      /* Add your styles for large devices here */
+    }
+  }
+  
+  /* Styles for non-large devices (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    #searchIcon {
+      display: none; /* Hide the search component for non-large devices */
+    }
+  }
+  

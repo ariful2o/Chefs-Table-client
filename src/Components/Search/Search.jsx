@@ -1,8 +1,9 @@
 import React from "react";
+import './Search.css'
 
 function SearchForm() {
   return (
-    <form className="max-w-md mr-8">
+    <form id="searchIcon" className="max-w-md mr-8">
       <label
         htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

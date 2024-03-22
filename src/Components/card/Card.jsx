@@ -11,7 +11,7 @@ export default function Card({ card, handleCookTiem }) {
     short_description,
     ingredients,
     preparing_time,
-    calories
+    calories,
   } = card;
 
   const [selected, setSelected] = useState(false);
@@ -36,9 +36,17 @@ export default function Card({ card, handleCookTiem }) {
 
   return (
     <div>
-      <div className={`card card-compact w-96 bg-base-100 shadow-xl my-8 pt-8 border ${selected ? 'border-green-500' : 'border-slate-200'}`}>
+      <div
+        className={`card card-compact w-full lg:w-96 bg-base-100 shadow-xl my-8 pt-8 border ${
+          selected ? "border-green-500" : "border-slate-200"
+        }`}
+      >
         <figure>
-          <img className="h-52 w-full rounded-2xl" src={recipe_image} alt="recipe_image" />
+          <img
+            className="h-52 w-full rounded-2xl"
+            src={recipe_image}
+            alt="recipe_image"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{recipe_name}</h2>
@@ -63,9 +71,11 @@ export default function Card({ card, handleCookTiem }) {
           <div className="my-4">
             <button
               onClick={handleSelect}
-              className={`btn btn-accent text-[#150B2B] rounded-[50px] px-6 py-3 ${selected ? 'bg-green-500' : ''}`}
+              className={`btn btn-accent text-[#150B2B] rounded-[50px] px-6 py-3 ${
+                selected ? "bg-green-500" : ""
+              }`}
             >
-              {selected ? 'Selected' : 'Want to cook'}
+              {selected ? "Selected" : "Want to cook"}
             </button>
           </div>
         </div>

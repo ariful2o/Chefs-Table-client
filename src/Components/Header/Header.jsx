@@ -40,7 +40,7 @@ export default function Header() {
             <li><a>Home</a></li>
             <li><a>Recipes</a></li>
             <li><a>About</a></li>
-            <li><a>Search</a></li>
+            {/* <li><a>Search</a></li> */}
           </ul>
         </div>
         <div className="navbar-end">

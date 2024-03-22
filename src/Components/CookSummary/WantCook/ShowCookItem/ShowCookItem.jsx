@@ -5,7 +5,7 @@ export default function ShowCookItem({ item ,handleCurrentlyCook,}) {
   const { recipe_name, preparing_time, calories,id } = item;
   // console.log(item)
   return (
-    <tbody>
+    <tbody className="w-full">
       {/* row 1 */}
       <tr>
         <th><img src={icon8} alt="" /></th>
