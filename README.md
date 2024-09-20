@@ -41,7 +41,7 @@ To get started with the B9A7 Chefs Table project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/b9a7-chefs-table.git
+   git clone https://github.com/programming-hero-web-course1/b9a7-chefs-table-mohammadariful20.git
    cd b9a7-chefs-table
 
    Install dependencies:
